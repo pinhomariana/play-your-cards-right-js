@@ -80,4 +80,19 @@ h1 {
     transition: transform .2s ease-out;
     z-index: -1;
   }
+
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #93f294;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+
+  
   

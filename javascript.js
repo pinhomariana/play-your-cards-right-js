@@ -11,13 +11,12 @@ function checkGuessHigher() {
     if (next_card > currentCard) {
         currentCard = next_card
         score += 1 
-        console.log("uhu")
         CurrentCardText = document.querySelector('p').innerHTML = `The current card is: ${currentCard}.`
     }
     else {
         let gameOver = `Wrong Guess. Game Over! Your Score was ${score}!`
         alert(gameOver)
-        window.location.href = "main.html";
+        window.location.href = "index.html";
     }
 }
 
@@ -26,13 +25,12 @@ function checkGuessLower() {
     if (next_card < currentCard) {
         currentCard = next_card
         score += 1 
-        console.log("uhu")
         CurrentCardText = document.querySelector('p').innerHTML = `The current card is: ${currentCard}.`
     }
     else {
         let gameOver = `Wrong Guess. Game Over! Your Score was ${score}!`
         alert(gameOver)
-        window.location.href = "main.html";
+        window.location.href = "index.html";
     }
 }
 
