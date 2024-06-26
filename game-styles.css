@@ -41,6 +41,10 @@ a {
   text-decoration: none;
 }
 
+#card-img {
+  padding: 1.5rem;
+}
+
 .button-56 {
     align-items: center;
     background-color: #ffffff;
